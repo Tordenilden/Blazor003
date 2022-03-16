@@ -1,0 +1,33 @@
+﻿@page "/kaffe"
+
+<h3>Person @tal</h3>
+
+@tal <br /><br />
+@s
+
+@*omg!!!!*@
+@*<button class="btn btn-primary" onclick="@click()" >click me your sweet sweet person</button>*@
+
+
+
+<button class="btn btn-primary" @onclick="click">click me your sweet sweet person</button>
+<button @onclick="click2">new button</button>
+@code {
+        private int tal = 5;
+        public string s = "hans og grethe";
+        public List<int> list = new List<int>
+        {
+            2,4,6,8,10
+        };
+    private void click()
+    {
+        tal++;
+    }
+
+    private void click2()
+    {
+        s = "some text";
+    }
+
+}
+@*dette bestemmer hvordan vi navigerer rundt på vores sider*@
