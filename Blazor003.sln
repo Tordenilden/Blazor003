@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		intro.md = intro.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor003.repo", "Blazor003.repo\Blazor003.repo.csproj", "{FDA1BB16-A6BA-47B2-97E7-C8EF3042A596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor003.Con", "Blazor003.Con\Blazor003.Con.csproj", "{999CC025-40F9-46DB-9629-159BB6103DA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{3CFEB454-FB18-4614-8C77-1163E7D9B8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFEB454-FB18-4614-8C77-1163E7D9B8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFEB454-FB18-4614-8C77-1163E7D9B8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA1BB16-A6BA-47B2-97E7-C8EF3042A596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA1BB16-A6BA-47B2-97E7-C8EF3042A596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA1BB16-A6BA-47B2-97E7-C8EF3042A596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA1BB16-A6BA-47B2-97E7-C8EF3042A596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999CC025-40F9-46DB-9629-159BB6103DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999CC025-40F9-46DB-9629-159BB6103DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999CC025-40F9-46DB-9629-159BB6103DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999CC025-40F9-46DB-9629-159BB6103DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
